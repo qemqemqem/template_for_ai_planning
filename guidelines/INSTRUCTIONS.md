@@ -11,3 +11,7 @@ If the user says "What's next?" or otherwise asks for a next step, use your best
 # Process Unstructured Requirements
 
 If the user asks you to process or take a look at the unstructured requirement docs, or refers to one of them by name, then you should probably follow the instructions in `notes/unstructured/PLANNING.md`. Basically, convert them into feature requests or other structured documents.
+
+# Let's work on X
+
+If the user indicates that they want to work on a specific feature or task, then carefully read `guidelines/DECISION_MAKING.md` to determine the best approach. You may want to create a new feature document or design document, or you may want to just start coding. Consider updating the files `notes/working/current_goal.md` and `notes/working/checkpoints.md` as needed.
