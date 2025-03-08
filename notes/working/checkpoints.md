@@ -18,4 +18,5 @@ Reference to current feature/issue: [e.g., notes/features/001_example_feature.md
 - Record a new checkpoint before starting any significant changes (SP5+)
 - Include a descriptive comment that explains what works in this state
 - Mark older checkpoints as "superseded" when they're no longer relevant
-- Use `git checkout [hash]` to return to a specific checkpoint if needed
+- Delete checkpoints that are no longer needed to reduce clutter
+- Use `git checkout [hash]` to return to a specific checkpoint if needed (but check with the user first)
