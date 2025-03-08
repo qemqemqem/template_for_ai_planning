@@ -21,8 +21,8 @@ Story points measure complexity, uncertainty, and effort rather than time. For A
 - **Examples**: Adding a simple method, updating a function, adding basic validation
 - **Approach**:
   - **Bug Fix**: Write test first if possible, then implement
-  - **Feature**: Implement directly with appropriate tests
-  - **Refactor**: Document intent in comments, implement with tests
+  - **Feature**: Implement directly and then explain in comments
+  - **Refactor**: Document intent in comments, implement with tests if possible
 
 ### 3 Points (SP3) - Standard Change
 - **Characteristics**: Changes spanning 2-3 files within the same component
@@ -30,15 +30,17 @@ Story points measure complexity, uncertainty, and effort rather than time. For A
 - **Approach**:
   - **Bug Fix**: Write test that reproduces bug, fix, verify
   - **Feature**: TDD approach, implement incrementally
-  - **Refactor**: Document approach in comments, seek confirmation if uncertain
+  - **Refactor**: Document approach in comments, seek confirmation from user if uncertain
 
 ### 5 Points (SP5) - Moderately Complex Change
 - **Characteristics**: Changes affecting multiple files across different components
 - **Examples**: Adding a feature requiring updates to multiple layers, moderate data model change
 - **Approach**:
-  - **Bug Fix**: Create issue document first, propose fix approach
-  - **Feature**: Create brief design notes, use TDD
-  - **Refactor**: Document approach with before/after examples, get approval
+  - **Bug Fix**: Create a document in `notes/issues`, get approval
+  - **Feature**: Create a document in `notes/features`, get approval
+  - **Refactor**: Document approach with before/after examples, create a doc in `notes/issues`, get approval
+
+Everything above SP5 requires both a design document and explicit approval before proceeding. The document should go in `notes/issues`, `notes/features`, or `notes/design_docs` as appropriate.
 
 ### 8 Points (SP8) - Complex Change
 - **Characteristics**: Significant changes affecting many components
@@ -46,14 +48,13 @@ Story points measure complexity, uncertainty, and effort rather than time. For A
 - **Approach**:
   - **Bug Fix**: Create detailed issue document with fix options
   - **Feature**: Create design doc with approach options, use TDD
-  - **Refactor**: Always create design doc, get explicit approval
+  - **Refactor**: Always create design doc in `notes/design_docs`, get explicit approval
   - **Library Swap**: Create migration plan with fallback options
 
 ### 13 Points (SP13) - Very Complex Change
 - **Characteristics**: Major changes with substantial architectural implications
 - **Examples**: Introducing new subsystem, complex algorithm implementation
 - **Approach**:
-  - **Bug Fix**: Full design doc with multiple solution options
   - **Feature**: Detailed design doc required, break into smaller tasks
   - **Refactor**: Comprehensive design doc with risk assessment required
   - **Class Rewrite**: Create design doc with interface compatibility analysis
