@@ -29,6 +29,14 @@ Unstructured documents capture initial requirements before they've been properly
    ```
 6. **Continue** until the entire unstructured document has been processed
 
+## Document Lifecycle
+
+Unstructured requirements follow this lifecycle:
+
+- **Created**: When receiving initial client specifications
+- **Processed**: Gradually converted into formal feature documents
+- **Completed**: When all sections have been formalized and referenced
+
 ## Best Practices
 
 - Process unstructured documents incrementally rather than all at once

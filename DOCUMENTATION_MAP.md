@@ -27,37 +27,12 @@ Issues    Design Docs
 
 ## Document Lifecycle
 
-### Unstructured Requirements
-- **Created**: When receiving initial client specifications
-- **Processed**: Gradually converted into formal feature documents
-- **Completed**: When all sections have been formalized and referenced
-
-### Features
-- **Proposed**: Initial feature specification
-- **Approved**: Accepted for implementation
-- **In-Progress**: Currently being implemented
-- **Completed**: Implementation finished and verified
-- **Deprecated**: No longer supported or relevant
-
-### Design Documents
-- **Draft**: Initial design proposal
-- **In-Review**: Under consideration and feedback
-- **Approved**: Accepted for implementation
-- **Implemented**: Design has been realized in code
-- **Deprecated**: Design is no longer relevant
-
-### Architecture Decision Records
-- **Proposed**: Initial decision proposal
-- **Accepted**: Decision has been accepted
-- **Rejected**: Decision was considered but not accepted
-- **Deprecated**: Decision is no longer valid
-- **Superseded**: Decision has been replaced by a newer one
-
-### Knowledge Documents
-- **Created**: Initial documentation of insight
-- **Verified**: Insight has been confirmed
-- **Updated**: Additional information added
-- **Archived**: No longer actively referenced but kept for historical value
+Each document type follows its own lifecycle, which is detailed in its respective documentation:
+- Unstructured Requirements: See [PLANNING.md](notes/unstructured/PLANNING.md)
+- Features: See [FEATURES.md](notes/features/FEATURES.md)
+- Design Documents: See [DESIGN_DOCS.md](notes/design_docs/DESIGN_DOCS.md)
+- Architecture Decision Records: See [ADR.md](notes/adr/ADR.md)
+- Knowledge Documents: See [KNOWLEDGE.md](notes/knowledge/KNOWLEDGE.md)
 
 ## Cross-Referencing Convention
 
