@@ -1,7 +1,40 @@
-# Unstructured Instructions
+# Unstructured Requirements Management
 
-This directory, `notes/unstructured` is a place to put documents with goals about the project. For example, specifications from a client might come in as a long document.
+This directory (`notes/unstructured`) serves as a temporary holding area for raw project requirements, client specifications, and other unprocessed documentation that needs to be formalized.
 
-The goal with this directory is that everything here (excluding this explanatory document) should be moved out the unstructured documents and into structured feature requests in the `notes/features/` directory. Whenever there is content in this directory, it probably means that there is design work to be done to structure that document into detailed feature requests. Do that by deleting sections from the unstructured documents, creating a new file somewhere else (or editing an existing feature file), and leaving a line like this in the unstructured file:
+## Purpose
 
-See: notes/features/001_example_feature.md
+Unstructured documents capture initial requirements before they've been properly analyzed and converted into formal feature specifications. This directory should ideally be empty or contain only in-progress documents awaiting formalization.
+
+## When to Use This Directory
+
+- When receiving initial client requirements
+- For brainstorming sessions that generate raw ideas
+- When documenting high-level project goals before breaking them down
+- For storing reference materials that will inform multiple features
+
+## Processing Workflow
+
+1. **Add** raw requirements or specifications to this directory
+2. **Analyze** each section to identify discrete features, issues, or design needs
+3. **Create** appropriate structured documents in their respective directories:
+   - `notes/features/` for new functionality
+   - `notes/issues/` for bugs or technical debt
+   - `notes/design_docs/` for implementation approaches
+   - `notes/adr/` for architectural decisions
+4. **Remove** the processed content from the unstructured document
+5. **Reference** the new structured document with a line like:
+   ```
+   See: notes/features/001_example_feature.md
+   ```
+6. **Continue** until the entire unstructured document has been processed
+
+## Best Practices
+
+- Process unstructured documents incrementally rather than all at once
+- Prioritize sections based on implementation urgency
+- Use the reference format consistently to maintain traceability
+- Consider adding status metadata to track processing progress
+- Reference the decision-making framework in [DECISION_MAKING.md](../guidelines/DECISION_MAKING.md) when determining how to structure requirements
+
+> **Note**: As mentioned in [DECISION_MAKING.md](../guidelines/DECISION_MAKING.md), converting unstructured requirements into formal feature requests should be prioritized to ensure clear implementation guidance.
