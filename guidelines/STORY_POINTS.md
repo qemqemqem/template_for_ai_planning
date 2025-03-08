@@ -1,10 +1,10 @@
 # AI Development Story Points Guide
 
-This document defines story point values for AI-assisted development and provides guidance on how to approach tasks of different sizes and types.
+This document defines story point values for AI-assisted development and provides guidance on how to approach tasks of different sizes and types. This guide works in conjunction with the [DECISION_MAKING.md](./DECISION_MAKING.md) and [CONVENTIONS.md](./CONVENTIONS.md) documents.
 
 ## Story Point Definitions for AI Development
 
-Story points measure complexity, uncertainty, and effort rather than time. For AI development, we use the Fibonacci scale (1, 2, 3, 5, 8, 13, 21).
+Story points measure complexity, uncertainty, and effort rather than time. For AI development, we use the Fibonacci scale (1, 2, 3, 5, 8, 13, 21). These estimates help determine the appropriate decision-making approach as outlined in [DECISION_MAKING.md](./DECISION_MAKING.md).
 
 ## Story Point Scale
 
@@ -112,6 +112,8 @@ When encountering tasks estimated at SP8 or above:
 4. Create dependencies between smaller stories
 5. Document the breakdown approach and get approval
 
+> **Reference**: For complex tasks, follow the design document approach outlined in [DECISION_MAKING.md](./DECISION_MAKING.md) under "Documentation System".
+
 ## Task Expansion Risk
 
 Be aware that tasks initially estimated as small (SP1-SP3) may expand during implementation. If you discover a task is more complex than initially estimated:
@@ -119,3 +121,5 @@ Be aware that tasks initially estimated as small (SP1-SP3) may expand during imp
 2. Document the newly discovered complexity
 3. Consider whether to continue or seek further guidance
 4. Update the estimate and approach accordingly
+
+> **Important**: When task complexity increases, revisit the decision-making framework in [DECISION_MAKING.md](./DECISION_MAKING.md) to determine if you should switch from "just do it" to "ask the human first" or "write a design doc first".

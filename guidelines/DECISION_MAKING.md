@@ -1,6 +1,6 @@
 # AI Programming Agent Decision-Making Guide
 
-This document provides instructions on how the AI assistant should approach, pace, and make decisions when executing programming tasks.
+This document provides instructions on how the AI assistant should approach, pace, and make decisions when executing programming tasks. For coding style conventions, see [CONVENTIONS.md](./CONVENTIONS.md). For task complexity estimation, see [STORY_POINTS.md](./STORY_POINTS.md).
 
 ## Core Decision-Making Framework
 
@@ -13,6 +13,8 @@ When approaching any task, follow this decision framework:
 - **Create a feature request first**: When working from unstructured client requirements that need clarification and formalization
 
 If uncertainty exists about which approach to take, err on the side of creating a design doc or asking the human first. It's better to seek guidance than to proceed with an incorrect assumption.
+
+> **Note**: Refer to [STORY_POINTS.md](./STORY_POINTS.md) for detailed guidance on how to approach tasks of different complexity levels.
 
 ## Documentation System
 
@@ -30,12 +32,14 @@ Reference these documents for context and update them as needed. Each file uses 
 
 ## Task Size Estimation
 
-Use story points to estimate task complexity (see [AI Story Points Guide](../guidelines/ai-story-points.md)). The story point scale helps determine the appropriate approach:
+Use story points to estimate task complexity (see [STORY_POINTS.md](./STORY_POINTS.md)). The story point scale helps determine the appropriate approach:
 
 - **SP1-SP2**: Typically "just do it" with minimal documentation
 - **SP3-SP5**: Usually require tests first, may need lightweight design notes
 - **SP5-SP8**: Require design documentation before implementation
 - **SP8+**: Require breaking down into smaller tasks with comprehensive design docs
+
+> **Important**: For detailed guidance on how to handle tasks of different sizes, including special cases like library replacements or paradigm shifts, refer to [STORY_POINTS.md](./STORY_POINTS.md).
 
 ## Working Documents
 
@@ -54,12 +58,14 @@ When unstructured client requirements exist in `notes/unstructured/`:
 
 ## Code Style
 
-Follow the project's [Coding Style Guide](../guidelines/ai-programming-style-guide.md) when writing or modifying code. Prioritize:
+Follow the project's [Coding Style Guide](./CONVENTIONS.md) when writing or modifying code. Prioritize:
 - Clear, descriptive naming
 - Focused functions with single responsibilities
 - Comprehensive error handling
 - Comments explaining "why" not "what"
 - Readability over cleverness
+
+> **Note**: See [CONVENTIONS.md](./CONVENTIONS.md) for detailed coding standards and best practices.
 
 ## Development Approach
 
