@@ -1,6 +1,6 @@
 ---
 id: adr-001
-title: Database Technology Selection
+title: Example ADR
 status: na
 date: 2025-03-07
 deciders: Development Team
@@ -8,7 +8,7 @@ supersedes:
 superseded_by: 
 ---
 
-# Database Technology Selection
+# Example ADR
 
 ## Context
 
