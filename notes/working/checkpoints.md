@@ -1,6 +1,21 @@
----
-git_commit: 0000
-current_project: 000_bug.md
----
+# Development Checkpoints
 
-Use this as a place to record the latest checkpoint that is in a good state. Especially if we are embarking on a large edit, it will be important to know when to go back to.
+This document tracks stable points in development that can serve as rollback targets if needed.
+
+## Current Project
+Reference to current feature/issue: [e.g., notes/features/001_example_feature.md]
+
+## Checkpoints
+
+| Date | Git Commit | Description | Status |
+|------|------------|-------------|--------|
+| YYYY-MM-DD | [hash] | Initial stable implementation of X | active |
+| YYYY-MM-DD | [hash] | Completed refactoring of Y component | active |
+| YYYY-MM-DD | [hash] | Fixed critical bug in Z functionality | superseded |
+
+## Usage Guidelines
+
+- Record a new checkpoint before starting any significant changes (SP5+)
+- Include a descriptive comment that explains what works in this state
+- Mark older checkpoints as "superseded" when they're no longer relevant
+- Use `git checkout [hash]` to return to a specific checkpoint if needed
