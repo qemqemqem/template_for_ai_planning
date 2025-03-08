@@ -127,6 +127,15 @@ How this insight was verified or tested.
 Supporting evidence, documentation, or related materials.
 ```
 
+## Document Lifecycle
+
+Knowledge documents follow this lifecycle:
+
+- **Created**: Initial documentation of insight
+- **Verified**: Insight has been confirmed
+- **Updated**: Additional information added
+- **Archived**: No longer actively referenced but kept for historical value
+
 ## Maintenance
 
 - Include "last updated" dates in all knowledge documents

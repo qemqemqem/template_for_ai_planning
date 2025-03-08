@@ -78,13 +78,17 @@ ADR files should be numbered sequentially using a three-digit number prefix:
 - `002_authentication_approach.md`
 - etc.
 
-## Status Definitions
+## Document Lifecycle
 
-- **Proposed**: Decision is still under discussion
+Architecture Decision Records follow this lifecycle:
+
+- **Proposed**: Initial decision proposal
 - **Accepted**: Decision has been accepted and is being implemented
 - **Rejected**: Decision was considered but not accepted
 - **Deprecated**: Decision was once accepted but is no longer valid
 - **Superseded**: Decision has been replaced by a newer decision
+
+ADRs are considered immutable once accepted. If a decision needs to be changed, create a new ADR that supersedes the old one and update the status of both ADRs to reflect their relationship.
 
 ## References in Code
 

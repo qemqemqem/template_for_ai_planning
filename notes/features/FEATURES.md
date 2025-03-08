@@ -83,6 +83,16 @@ Feature files should be numbered sequentially using a three-digit number prefix:
 
 This numbering does not necessarily indicate priority or implementation order.
 
+## Document Lifecycle
+
+Features follow this lifecycle:
+
+- **Proposed**: Initial feature specification
+- **Approved**: Accepted for implementation
+- **In-Progress**: Currently being implemented
+- **Completed**: Implementation finished and verified
+- **Deprecated**: No longer supported or relevant
+
 ## Maintenance
 
 - Update feature status as it moves through implementation

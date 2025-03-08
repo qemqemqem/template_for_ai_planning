@@ -72,6 +72,16 @@ Known risks and how they'll be addressed.
 Any unresolved questions that need further discussion.
 ```
 
+## Document Lifecycle
+
+Design documents follow this lifecycle:
+
+- **Draft**: Initial design proposal
+- **In-Review**: Under consideration and feedback
+- **Approved**: Accepted for implementation
+- **Implemented**: Design has been realized in code
+- **Deprecated**: Design is no longer relevant
+
 ## Maintenance
 
 - Design documents should be kept up-to-date as implementation progresses
