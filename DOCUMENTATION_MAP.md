@@ -12,10 +12,8 @@ Unstructured Requirements
 Issues    Design Docs
     ↘     ↙
    Implementation
-        ↓
-     ADRs
-        ↓
-   Knowledge
+    ↙     ↘
+ ADRs     Knowledge
 ```
 
 ## Document Relationships
